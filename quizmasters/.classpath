@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="src/Hoofdstuk 1/|src/Hoofdstuk 1/|src/" kind="src" path=""/>
-	<classpathentry kind="src" path="src/Hoofdstuk 1"/>
 	<classpathentry excluding="Hoofdstuk 1/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
