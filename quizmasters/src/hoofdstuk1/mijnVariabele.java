@@ -1,4 +1,4 @@
-package hoofdstuk1;
+package src.hoofdstuk1;
 
 public class mijnVariabele{
 	static byte b = 122;
