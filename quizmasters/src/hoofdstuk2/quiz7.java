@@ -12,6 +12,14 @@ public class quiz7{
 		i3 /= 3;
 		i4 -= 12;
 		
+		i1 ++;
+		i2 -= 3;
+		i3 *= 2;
+		i4 /= 4;
 		
+		System.out.print(i1 + ", ");
+		System.out.print(i2 + ", ");
+		System.out.print(i3 + ", ");
+		System.out.print(i4 + " ");
 	}
 }
