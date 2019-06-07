@@ -1,4 +1,4 @@
-package hoofdstuk1;
+package src.hoofdstuk1;
 
 public class Arbeider{
 	//Twee boolean's, standaard is false wij gaan er vanuit dat de meeste werknemers buitenlands zijn dus =true

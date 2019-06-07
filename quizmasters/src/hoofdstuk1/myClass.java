@@ -1,4 +1,4 @@
-package hoofdstuk1;
+package src.hoofdstuk1;
 
 public class myClass{
 	static int i;
