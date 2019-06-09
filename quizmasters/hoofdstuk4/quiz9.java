@@ -10,6 +10,3 @@ public class quiz9{
 		}
 	}
 }
-
-// als je x naar 14 veranderd en y naar 5 wordt de uitvoer 25
-// als je break verwijderd wordt de uit voer 55
