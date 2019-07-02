@@ -1,12 +1,10 @@
 package hoofdstuk7;
 
+
 //class aangemaakt
 public class TekstManipulatie{
-	//String gemaakt
-		String zin = "Brazilië$ is een$ groot$ lan$d in Zuid$-Amerika";
-		
 	//maken van een method
-	public void stringDemo() {
+	public void stringDemo(String zin) {
 		System.out.print("Hoofdletters: " + zin.toUpperCase() + "\n");
 		//Zet de tekst naar hoofdletters
 		System.out.print("Kleine letters: " + zin.toLowerCase() + "\n");
@@ -24,9 +22,12 @@ public class TekstManipulatie{
 	}
 	
 	public static void main(String[] args) {
+		//String in main zodat grote boze programmeurs geen boze dingen vanuit andere classes kunnen doen
+		String zin = "Brazilië$ is een$ groot$ lan$d in Zuid$-Amerika";
+		
 		//uitvoeren van de method
 		TekstManipulatie tm = new TekstManipulatie();
-		tm.stringDemo();
+		tm.stringDemo(zin);
 	}
 		
 }
