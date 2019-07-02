@@ -1,14 +1,14 @@
 package hoofdstuk5;
 
-class mijnWerknemer{
-	String naam = "";
+public class mijnWerknemer{
+	String naam;
 	double salaris = 2400.55;
 	String land = "Nederland";
-}
 
-public class eind5{
+
+
 	public static void main(String[] args) {
-		//Maken van nieuwe objecten
+		//het maken van objecten.
 		mijnWerknemer mw = new mijnWerknemer();
 		mijnWerknemer mw2 = new mijnWerknemer();
 		
@@ -19,6 +19,7 @@ public class eind5{
 		
 		mw2.naam = "Daniel";
 		
+		//output in de console uit printen \n is voor een nieuwe regel
 		System.out.print("------ Werknemers ------" + "\n");
 		System.out.print("Naam:           " + mw.naam + "\n");
 		System.out.print("Salaris:       €" + mw.salaris + "\n");

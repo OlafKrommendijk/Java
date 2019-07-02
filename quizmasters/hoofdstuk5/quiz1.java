@@ -8,7 +8,7 @@ class Werknemer{
 
 //aanmaken van de class student
 class Student{
-	//Variabelen instellen
+	//instantievariabelen
 	String naamStudent = "Emma";
 	int leeftijdStudent = 25;
 	String nummerStudent = "00233-786854";
