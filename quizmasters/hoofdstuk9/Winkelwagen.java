@@ -7,10 +7,10 @@ public class Winkelwagen{
 	ArrayList<Artikel> artikelen = new ArrayList<Artikel>();
 	
 	//Nieuwe artikelen instellen
-	Artikel art1 = new Artikel("Overhemd", 20.39);
-	Artikel art2 = new Artikel("Broek", 32.85);
-	Artikel art3 = new Artikel("Sokken", 11.25);
-	Artikel art4 = new Artikel("Jas", 120.65);
+	public static Artikel art1 = new Artikel("Overhemd", 20.39);
+	public static Artikel art2 = new Artikel("Broek", 32.85);
+	public static Artikel art3 = new Artikel("Sokken", 11.25);
+	public static Artikel art4 = new Artikel("Jas", 120.65);
 	
 	//Methode om namen en prijzen van artikelen weg te schrijven
 	public void printArtikelen() {
