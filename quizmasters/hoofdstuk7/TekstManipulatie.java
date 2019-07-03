@@ -15,7 +15,15 @@ public class TekstManipulatie{
 		//haalt alle dollartekens uit de tekst
 		System.out.print("Eerste 10 letters weg: " + zin.substring(10) + "\n");
 		//Haalt de eerste 10 letters van de zin af
-		System.out.print("Index van het laatste dollar teken " + zin.indexOf("$") + "\n");
+		
+		//Nieuw toegevoegd
+		System.out.print("Levert groot op: " + zin.substring(18, 23) + "\n");
+		//Levert groot op:
+		System.out.print("Index van het eerste dollar teken " + zin.indexOf("$") + "\n");
+		//Kijkt waar het eerste dollar teken staat
+		
+		
+		System.out.print("Index van het laatste dollar teken " + zin.lastIndexOf("$") + "\n");
 		//kijkt waar het laatste dollar teken staat
 		System.out.print("Vervangt Brazilë door Argentinië: " + zin.replace("Brazilië", "Argentinië") + "\n");
 		//Vervangt het woord "Brazilië door Argentinië
