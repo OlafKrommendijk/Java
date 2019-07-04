@@ -1,5 +1,5 @@
 //Aangeven welke package er wordt gebruikt
-package kalender;
+package hoofdstuk8.kalender;
 
 public class Datum {
 	//Declareren van variabelen als private
