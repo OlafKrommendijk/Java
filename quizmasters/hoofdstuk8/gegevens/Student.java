@@ -1,4 +1,4 @@
-package gegevens;
+package hoofdstuk8.gegevens;
 
 //importeren van de eerder gemaakte class
 import kalender.Datum;
